@@ -29,6 +29,9 @@ img{
 }
 .wrapper{
     width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     /*
         TODO:
@@ -118,10 +121,10 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
   width: 50%;
-  margin: auto;
 display: flex;
 flex-direction: column;
-margin-bottom: 50px;
+margin-top: -30px;
+margin-left: 5%;
 
 
     /*
@@ -137,6 +140,8 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     display: flex;
     width: 20%;
+    text-align: center;
+    flex-direction: column;
 
     /*
         TODO:
