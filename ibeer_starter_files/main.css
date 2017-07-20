@@ -140,6 +140,7 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     display: flex;
     width: 20%;
+    margin-top: -30px;
     text-align: center;
     flex-direction: column;
 
@@ -194,6 +195,11 @@ height: 50%;
 }
 article footer p{
   display: flex;
+  text-transform: capitalize;
+  border-top: 2px solid;
+  text-align: center;
+}
+
 
 
     /*
@@ -203,17 +209,20 @@ article footer p{
         HINT: Look to the article header;
     */
 }
-#site-footer{
+/*#site-footer{
 
     background: #333;
     color: white;
     margin: 30px 0px 0px 0px;
     padding: 20px;
-    align-content: center;
-    justify-content: center;
-      display: flex;
+    text-align: center;
     /*
         TODO:
         - Style the site footer
-    */
-}
+        }*/
+  #site-footer {
+      background: #333;
+      color: white;
+      margin: 30px 0 0 0;
+      text-align: center;
+  }
