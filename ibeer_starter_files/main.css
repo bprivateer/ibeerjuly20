@@ -194,7 +194,7 @@ height: 50%;
     */
 }
 article footer p{
-  display: flex;
+
   text-transform: capitalize;
   border-top: 2px solid;
   text-align: center;
@@ -208,7 +208,6 @@ article footer p{
         - Style the article footer
         HINT: Look to the article header;
     */
-}
 /*#site-footer{
 
     background: #333;
